@@ -1,10 +1,10 @@
-var gulp = require("gulp"),
-    del = require("del"),
-    stylus = require("gulp-stylus"),
-    prefix = require("gulp-autoprefixer"),
-    rename = require("gulp-rename"),
-    uglify = require("gulp-uglify"),
-    imagemin = require("gulp-imagemin");
+import gulp from 'gulp';
+import del from 'del';
+import stylus from 'gulp-stylus';
+import prefix from 'gulp-autoprefixer';
+import rename from 'gulp-rename';
+import uglify from 'gulp-uglify';
+import imagemin from 'gulp-imagemin';
 
 function clean(cb){
   const deletedPaths = del.sync(["source/dist/*"]);
@@ -71,9 +71,13 @@ function prefixCss(cb){
   cssPrefix();
   cb();
 }
-exports.default = buildAll;
-exports.clean = clean;
-exports.img = minImg;
-exports.css = minCss;
-exports.fix = prefixCss;
-exports.js = minJs;
+
+export default buildAll;
+export {
+  buildAll,
+  clean,
+  minImg,
+  minCss,
+  prefixCss,
+  minJs
+}
