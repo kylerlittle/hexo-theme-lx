@@ -13,7 +13,7 @@ theme_color: "#58b77a"
 personal_des: Hello, World!
 
 # avatar
-avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/avatar.min.jpeg
+avatar: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/avatar.min.png
 
 ###The options below are images information
 # Home cover

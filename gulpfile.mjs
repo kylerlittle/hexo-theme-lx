@@ -4,7 +4,7 @@ import stylus from 'gulp-stylus';
 import prefix from 'gulp-autoprefixer';
 import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
-import imagemin from 'gulp-imagemin';
+import imagemin, { mozjpeg } from 'gulp-imagemin';
 
 function clean(cb){
   const deletedPaths = del.sync(["source/dist/*"]);
@@ -38,12 +38,12 @@ function jsMinify(){
 }
 
 function imageMinify(){
-  gulp.src("source/images/*.jpeg*")
+  gulp.src(["source/images/*.jpeg*", "source/images/*.png"])
     .pipe(rename({
       suffix: ".min"
     }))
     .pipe(imagemin([
-      imagemin.mozjpeg({quality:70, progressive: true})
+      mozjpeg({quality:100, progressive: true})
     ]))
     .pipe(gulp.dest("source/dist/images"));
   gulp.src("source/images/*.svg").pipe(gulp.dest("source/dist/images"));
