@@ -28,12 +28,12 @@ nex_post: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/di
 menu:
   category: false #category
   pages:  #the page created by yourself
-    enable: true
+    enable: false
     links:
       Guestbook: guestbook/
       About: about/
   friends:
-    enable: true
+    enable: false
     links:
       Theme-Lx: https://lx.js.org
 
