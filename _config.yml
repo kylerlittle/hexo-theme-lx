@@ -10,19 +10,19 @@ favicon: favicon.ico
 theme_color: "#58b77a"
 
 # personal information
-personal_des: Hello, World!
+personal_des: Distracted Software Engineer
 
 # avatar
 avatar: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/avatar.min.png
 
 ###The options below are images information
 # Home cover
-cover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/cover.min.jpeg
+cover: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/manitozengarden.min.png
 # page cover
-postcover: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/post_cover.min.jpeg
+postcover: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/scottishhighlands.min.png
 # the cover of newer or older post
-pre_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-r.min.jpeg
-nex_post: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/images/footer-l.min.jpeg
+pre_post: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/libertylake.min.png
+nex_post: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/images/edinburgh.min.png
 
 # menu content
 menu:
