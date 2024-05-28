@@ -96,11 +96,6 @@ comment:
   language: en
   cdn: https://cdn.jsdelivr.net/npm/valine@1.4.18/dist/Valine.min.js
 
-# Mathjax
-mathjax:
-  enable: true
-  cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js
-
 # FontAwesome-CDN
 font_awesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
@@ -134,5 +129,5 @@ custom_css: false
 #The dir of Js and Css
 base_file:
   jquery_cdn: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
-  js: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/js/
-  css: https://cdn.jsdelivr.net/npm/theme-lx@0.4.4/source/dist/css/main.min.css
+  js: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/js/
+  css: https://cdn.jsdelivr.net/gh/kylerlittle/hexo-theme-lx@latest/source/dist/css/main.min.css
