@@ -115,7 +115,7 @@ custom_head:
 
 # Custom CSS
 # If true, Lx will load 'source/css/custom.styl'
-custom_css: false
+custom_css: true
 
 
 
